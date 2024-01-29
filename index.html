@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyim.ustaz</title>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+</head>
+<style>
+    @media screen and (max-width: 600px){
+ 
+        
+        .slick-dots {
+          width:100% !important;
+        }
+
+    }
+     .slick-dots {
+        width: 600px;
+        display:flex;
+        padding-left: 30px;
+    }
+    .comment-slider .slick-dots {
+        padding-left: 10px;
+    }
+     .slick-dots li button:before
+    {
+        font-size: 10px;
+        line-height: 20px;
+    }
+ 
+     .slick-dots li button {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+
+    .slick-dots li {
+        width: 10px;
+        height: 10px;
+        background: #CBDCE7;
+        border:  2px solid #CBDCE7;
+        border-radius: 50%;
+    }
+
+     .slick-dots li button::before {
+        display: none;
+    }
+
+     .slick-dots li.slick-active {
+        width: 10px;
+        height: 10px;
+        background: #232F37;
+        border-color: #232F37;
+    }
+    .slider ul.slick-dots {
+        bottom: 40px; 
+    }
+    .comment-slider ul.slick-dots {
+        bottom:-40px;
+    }
+    .slick-list {
+        border-radius: 16px;
+    }
+    .arrows .slick-disabled svg path{
+        fill:white;
+    }
+    .arrowz .slick-disabled svg path {
+        fill:#CBDCE7;
+        stroke:#232F37;
+    }
+    .comment-slider .slick-slide { margin: 0 10px;}
+    .comment img { max-width: 100%;}
+
+    .partners-slider .slick-list {
+        width: 100%;
+    }
+    .partners-slider .slick-dots {padding-left: 0; display: flex; align-items: center; justify-content: center; width: 100%; margin: 0 auto;}
+    .partners-slider .slick-slide {display: flex; align-items: center; justify-content: center; }
+</style>
+<body class="bg-[#E9F0F3] font-['Inter']">
+    <div class="banner-catalog mt-4">
+        <div class="container mx-auto p-2 md:p-2">
+            <div class="slider-catalog w-full slider">
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[383px] relative rounded-2xl" src="images/MicrosoftTeams-image (4).png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl md:text-3xl w-64 md:w-[560px]">
+                            Повышение квалификации педагогов
+                            в области IT-технологий и методов преподавания  
+                        </p>
+                        <a href="" class="group transition-all duration-300 hover:bg-white border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl mt-10">
+                            <p class=" transition-all duration-300 text-white group-hover:text-[#232F37]">Записаться</p>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class=" transition-all duration-300 group-hover:stroke-[#232F37]" d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[383px] relative rounded-2xl" src="images/MicrosoftTeams-image (5).png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl md:text-3xl w-64 md:w-[560px]">
+                            Повышение квалификации педагогов
+                            в области IT-технологий и методов преподавания  
+                        </p>
+                        <a href="" class="group transition-all duration-300 hover:bg-white border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl mt-10">
+                            <p class=" transition-all duration-300 text-white group-hover:text-[#232F37]">Записаться</p>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class=" transition-all duration-300 group-hover:stroke-[#232F37]" d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[383px] relative rounded-2xl" src="images/Frame 1171275044.png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl md:text-3xl w-64 md:w-[560px]">
+                            Повышение квалификации педагогов
+                            в области IT-технологий и методов преподавания  
+                        </p>
+                        <a href="" class="group transition-all duration-300 hover:bg-white border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl mt-10">
+                            <p class=" transition-all duration-300 text-white group-hover:text-[#232F37]">Записаться</p>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class=" transition-all duration-300 group-hover:stroke-[#232F37]" d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="items">
+        <div class="container mx-auto p-2 md:p-2">
+            <div class="items-wrap flex flex-wrap justify-between">
+                    <div class="group items-block rounded-xl relative w-full h-52 md:h-96 md:w-[45%] lg:w-1/2">
+                        <a href="">
+                            <img class="hidden w-full h-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full rounded-xl object-cover transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-xl group-hover:text-[#232F37]">Предметные компетенции</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="group items-block rounded-xl relative w-[49%] mt-2 md:mt-0 lg:mt-0 md:w-[45%] lg:w-[24%] h-52 md:h-96">
+                        <a href="">
+                            <img class="hidden w-full h-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full object-cover rounded-xl transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-xl group-hover:text-[#232F37]">Менеджмент и лидерство</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="group items-block rounded-xl relative w-[49%] mt-2 lg:mt-0 md:w-[45%] lg:w-[24%] h-52 md:h-96">
+                        <a href="">
+                            <img class="hidden h-full w-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full object-cover rounded-xl transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-base md:text-xl group-hover:text-[#232F37]">Воспитательная 
+                                    работа</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="group items-block rounded-xl relative w-[49%] mt-2 md:w-[45%] lg:w-[24%] h-52 md:h-96">
+                        <a href="">
+                            <img class="hidden w-full h-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full object-cover rounded-xl transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-xl group-hover:text-[#232F37]">Предметные компетенции</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="group items-block rounded-xl relative w-[49%] mt-2  md:w-[45%] lg:w-[24%] h-52 md:h-96">
+                        <a href="">
+                            <img class="hidden h-full w-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full object-cover rounded-xl transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-base md:text-xl group-hover:text-[#232F37]">Метапредметные компетенции
+                                    методика и технологии</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="group items-block rounded-xl relative w-[49%] mt-2 md:w-[45%] lg:w-[24%] h-52 md:h-96">
+                        <a href="">
+                            <img class="hidden w-full h-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full object-cover rounded-xl transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-xl group-hover:text-[#232F37]">Предметные компетенции</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="group items-block rounded-xl relative w-[49%] mt-2  md:w-[45%] lg:w-[24%] h-52 md:h-96">
+                        <a href="">
+                            <img class="hidden h-full w-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full object-cover rounded-xl transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-base md:text-xl group-hover:text-[#232F37]">Метапредметные компетенции
+                                    методика и технологии</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- <div class="group items-block rounded-xl relative w-full mt-3 md:mt-2 h-52 md:h-96 md:w-[45%] lg:w-2/5">
+                        <a href="">
+                            <img class="hidden h-full w-full object-cover rounded-xl group-hover:block transition-all duration-300" src="images/Property 1=Variant3.png" alt="">
+                            <img class="group-hover:hidden w-full h-full rounded-xl object-cover transition-all duration-300" src="images/Rectangle 6.png" alt="">
+                            <div class="title absolute top-0">
+                                <p class="text-white px-6 mt-5 text-xl group-hover:text-[#232F37]">Исследовательская
+                                    деятельность</p>
+                            </div>
+
+                            <div class="hidden group-hover:flex link_title px-6 absolute bottom-5 w-full flex items-center justify-between">
+                                <p>12 курсов</p>
+                                <a href="" class="group transition-all duration-300 border border-[#232F37] p-[10px_16px] bg-[#232F37] flex items-center rounded-xl">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 16L14 12L10 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cooperation mt-4">
+        <div class="container mx-auto p-2 md:p-2 relative">
+            <div class="holidays-slider w-full">
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[480px] relative rounded-2xl" src="images/Section.png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl  text-white md:text-3xl w-64 md:w-[560px]">
+                            Повышение квалификации педагогов
+                            в области IT-технологий и методов преподавания  
+                        </p>                      
+                        <p class="text-base mt-5 font-normal text-white w-72 md:w-[340px]">
+                            80% учеников прошедшие наши курсы устроились на работу по специальности 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[480px] relative rounded-2xl" src="images/Section (1).png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl  text-white md:text-3xl w-64 md:w-[560px]">
+                            Научим проходить интервью
+                        </p>
+                        <p class="text-base mt-5 font-normal text-white w-72 md:w-[340px]">
+                            Разберем сложные вопросы, чтобы вы чувстовали себя увереннее. Узнаете, как вести переговоры о зарплате 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[480px] relative rounded-2xl" src="images/Section (2).png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl  text-white md:text-3xl w-64 md:w-[560px]">
+                            Онлайн площадка Shamshyraq nis 
+                        </p>
+                        <p class="text-base mt-5 font-normal text-white w-72 md:w-[340px]">
+                            Всем, кто ищет новые знания, новый опыт и новые идеи для развития школьной практики, следует посетить данную площадку. 
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="block rounded-2xl">
+                    <img class="w-full object-cover h-[480px] relative rounded-2xl" src="images/Section (3).png" alt="">
+                    <div class="text-title absolute top-0 px-6 md:px-10 mt-14 flex flex-col items-start">
+                        <p class="text-xl text-white  md:text-3xl w-64 md:w-[560px]">
+                            Образовательный youtube канал cpm 
+                        </p>
+                        <p class="text-base mt-5 font-normal text-white w-72 md:w-[340px]">
+                            Практикующие эксперты из топовых компаний, делятся знаниями, которые нужны в работе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                <div class="slider-num text-white absolute bottom-10 left-10">
+                    <strong></strong>
+                    <small></small>
+                </div>
+
+                <div class="arrows flex absolute right-10 bottom-10">
+                    <div class="prev-btn cursor-pointer">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M40 28C40 34.6274 34.6274 40 28 40L12 40C5.37259 40 4.69686e-07 34.6274 1.04907e-06 28L2.44784e-06 12C3.02722e-06 5.37258 5.37259 -3.02722e-06 12 -2.44784e-06L28 -1.04907e-06C34.6274 -4.69686e-07 40 5.37259 40 12L40 28Z" fill="#CBDCE7"/>
+                            <path d="M22 16L18 20L22 24" stroke="#232F37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                    <div class="next-btn ml-2 cursor-pointer">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 12C0 5.37258 5.37258 0 12 0H28C34.6274 0 40 5.37258 40 12V28C40 34.6274 34.6274 40 28 40H12C5.37258 40 0 34.6274 0 28V12Z" fill="white"/>
+                            <path d="M18 24L22 20L18 16" stroke="#232F37" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="comments mt-4">
+        <div class="container mx-auto p-2 md:p-2 ">
+            <div class="bg-white rounded-xl px-10 py-10 relative">
+                <h1 class="text-2xl ml-3">Отзывы наших пользователей</h1>
+                <div class="comment-slider mt-16 ">
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+
+                    <div class="comment bg-[#E9F0F3] p-4 rounded-xl w-1/4">
+                        <div class="comment-title flex justify-between items-start">
+                            <div class="comment-user flex items-center">
+                                <div class="round-image w-[60px] h-[60px] rounded-[50%] overflow-hidden flex items-center justify-center">
+                                    <img class="w-full h-full object-cover" src="https://beyim.edu.kz/storage/2023/03/02/83HhS1zdrsgmHD51IU8jRUd0ZmXLIIr55YUiOpV8.jpg" alt="">
+                                </div>
+                                <div class="user-name flex flex-col ml-4">
+                                    <p class="text-base">Роза</p>
+                                    <p class="text-[#678AA1]">г.Астана</p>
+                                </div>
+                            </div>
+
+                            <div class="rating flex items-center">
+                                <p class="mr-1">5.0</p>
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_41_1099)">
+                                    <path d="M7.6246 2.40352C7.6942 2.28409 7.7939 2.18499 7.91376 2.11611C8.03362 2.04723 8.16944 2.01099 8.30768 2.01099C8.44591 2.01099 8.58174 2.04723 8.70159 2.11611C8.82145 2.18499 8.92115 2.28409 8.99075 2.40352L10.7585 5.43816L14.1916 6.18195C14.3267 6.2113 14.4517 6.27553 14.5541 6.36824C14.6566 6.46095 14.733 6.5789 14.7757 6.71034C14.8184 6.84178 14.8259 6.98211 14.7974 7.11734C14.7689 7.25257 14.7055 7.37798 14.6135 7.48106L12.2733 10.1002L12.6275 13.5946C12.6415 13.7322 12.6191 13.8711 12.5626 13.9973C12.5062 14.1236 12.4175 14.2328 12.3057 14.3141C12.1938 14.3954 12.0625 14.4459 11.925 14.4606C11.7875 14.4753 11.6485 14.4537 11.5219 14.3979L8.30768 12.9811L5.09342 14.3979C4.96687 14.4537 4.8279 14.4753 4.69038 14.4606C4.55285 14.4459 4.42159 14.3954 4.3097 14.3141C4.19781 14.2328 4.1092 14.1236 4.05272 13.9973C3.99624 13.8711 3.97387 13.7322 3.98785 13.5946L4.34204 10.1002L2.00186 7.4817C1.90967 7.37862 1.84612 7.25316 1.81757 7.11784C1.78902 6.98253 1.79646 6.84209 1.83916 6.71055C1.88185 6.57901 1.9583 6.46097 2.06088 6.36822C2.16346 6.27546 2.28857 6.21124 2.42373 6.18195L5.85682 5.43816L7.6246 2.40352Z" fill="#FFC700"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_41_1099">
+                                    <rect width="15.1795" height="15.1795" fill="white" transform="translate(0.718018 0.5896)"/>
+                                    </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
+                        </div>
+
+                        <p class="w-full xl:w-64 mt-3">
+                            “Обучение оказалось отличным инвестируемым временем! Курсы легко доступны, и материалы легко усваиваются”
+                        </p>
+                    </div>
+            </div>
+
+            <div class="arrowz flex absolute right-10 bottom-4">
+                <div class="prev-btns cursor-pointer">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M40 28C40 34.6274 34.6274 40 28 40L12 40C5.37259 40 4.69686e-07 34.6274 1.04907e-06 28L2.44784e-06 12C3.02722e-06 5.37258 5.37259 -3.02722e-06 12 -2.44784e-06L28 -1.04907e-06C34.6274 -4.69686e-07 40 5.37259 40 12L40 28Z" fill="#232F37"/>
+                        <path d="M22 16L18 20L22 24" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+
+                <div class="next-btns ml-2 cursor-pointer">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 12C0 5.37258 5.37258 0 12 0H28C34.6274 0 40 5.37258 40 12V28C40 34.6274 34.6274 40 28 40H12C5.37258 40 0 34.6274 0 28V12Z" fill="#232F37"/>
+                        <path d="M18 24L22 20L18 16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                        
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="questionaire mt-4">
+        <div class="container mx-auto p-2 md:p-2">
+            <div class="bg-white rounded-xl px-10 py-10 relative">
+                <h1 class="text-2xl ml-3">Часто задаваемые вопросы</h1>
+                <div class="faq mt-7">
+                            <div class="mt-5">
+                                <div id="accordion-color" data-accordion="collapse" data-active-classes="bg-[#E9F0F3]">
+                                    <h2 id="accordion-color-heading-1" class="bg-[#E9F0F3] rounded-xl">
+                                    <button type="button" class="flex bg-[#E9F0F3] items-center justify-between w-full p-5 font-medium border border-b-0 border-gray-200 rounded-t-xl gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+                                        <span class="text-xl">Какова роль и опыт преподавателей на сайте?</span>
+                                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                        </svg>
+                                    </button>
+                                    </h2>
+                                    <div id="accordion-color-body-1" class="hidden rounded-xl" aria-labelledby="accordion-color-heading-1">
+                                        <div class="px-5 py-2 bg-[#E9F0F3] rounded-b-xl">
+                                            <p class="mb-2 text-[#232F37]">Наши преподаватели – это профессионалы с обширным опытом в соответствующей области. Многие из них работают в индустрии и предоставляют студентам актуальные знания и навыки.</p>
+                                        </div>
+                                    </div>
+
+
+
+
+                                    <h2 id="accordion-color-heading-2" class="bg-[#E9F0F3] mt-5 rounded-xl">
+                                        <button type="button" class="flex bg-[#E9F0F3] items-center justify-between w-full p-5 font-medium border border-b-0 border-gray-200 rounded-t-xl gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="false" aria-controls="accordion-color-body-2">
+                                            <span class="text-xl">Какова роль и опыт преподавателей на сайте?</span>
+                                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+                                            </svg>
+                                        </button>
+                                    </h2>
+                                        <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
+                                        <div class="px-5 py-2 bg-[#E9F0F3] rounded-b-xl">
+                                            <p class="mb-2 text-[#232F37]">Наши преподаватели – это профессионалы с обширным опытом в соответствующей области. Многие из них работают в индустрии и предоставляют студентам актуальные знания и навыки.</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                
+        
+        
+                                </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-partners mt-4">
+        <div class="container mx-auto p-2 md:p-2">
+            <div class="bg-white rounded-xl px-10 py-10 relative">
+                <h1 class="text-2xl ml-3">Наши партнеры</h1>
+                <div class="partners-slider flex justify-between flex-wrap mt-5">
+                    <div class="partner mx-auto border-hidden xl:border-solid xl:!border-r xl:!border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4539.png" alt="">
+                    </div>
+                    <div class="partner border-hidden  xl:border-solid xl:border-r border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4540.png" alt="">
+                    </div>
+                    <div class="partner border-hidden xl:border-solid xl:border-r border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4541.png" alt="">
+                    </div>
+                    <div class="partner border-hidden xl:border-solid xl:border-r border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4542.png" alt="">
+                    </div>
+                    <div class="partner border-hidden xl:border-solid xl:border-r border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4543.png" alt="">
+                    </div>
+                    <div class="partner border-hidden xl:border-solid xl:border-r border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4544.png" alt="">
+                    </div>
+                    <div class="partner border-hidden xl:border-solid xl:border-r border-gray-200">
+                        <img class="w-24 h-24" src="images/Rectangle 4545.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img class="w-24 h-24" src="images/Rectangle 4546.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+            $(document).ready(function(){
+    
+                $('.slider-catalog').slick({
+                                infinite: true,
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                autoplaySpeed: 3000,
+                                dots:true,
+                                arrows:false,
+                                responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                arrow:false,
+                                //autoplay:true,
+                            }
+                        },
+                    ]
+                });
+
+                $('.partners-slider').slick({
+                                infinite: true,
+                                slidesToShow: 8,
+                                slidesToScroll: 1,
+                                autoplaySpeed: 3000,
+                                dots:false,
+                                arrows:false,
+                                responsive: [
+                            {
+                                breakpoint: 1024,
+                                settings: {
+                                slidesToShow: 4,
+                                slidesToScroll: 4,
+                                arrow:false,
+                                dots:true,
+                                //autoplay:true,
+                            }
+                            },
+                            {
+                                breakpoint: 575,
+                                settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 2,
+                                arrow:false,
+                                dots:true,
+                                //autoplay:true,
+                            }
+                            },
+                    ]
+                });
+
+
+                $('.comment-slider').slick({
+                    infinite: false,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    autoplaySpeed: 3000,
+                    dots: true,
+                    arrows: false,
+                    responsive: [
+                        {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1,
+                                arrow: false,
+                                //autoplay:true,
+                            }
+                        },
+                        {
+                            breakpoint: 575,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1,
+                                arrow: false,
+                                //autoplay:true,
+                            }
+                        },
+                    ]
+                });
+
+                $(".prev-btns").click(function () {
+                    $('.comment-slider').slick("slickPrev");
+                });
+
+                $(".next-btns").click(function () {
+                    $('.comment-slider').slick("slickNext");
+                });
+
+                $(".prev-btns").addClass("slick-disabled");
+                $('.comment-slider').on("afterChange", function (event, slick, currentSlide) {
+                    if (currentSlide === 0) {
+                        $(".prev-btns").addClass("slick-disabled");
+                    } else {
+                        $(".prev-btns").removeClass("slick-disabled");
+                    }
+
+                    if ($(".slick-next").hasClass("slick-disabled")) {
+                        $(".next-btns").addClass("slick-disabled");
+                    } else {
+                        $(".next-btns").removeClass("slick-disabled");
+                    }
+                });
+
+
+
+                
+                $('.holidays-slider').each(function() {
+                    let $this = $(this),
+                        $status = $this.closest('.container').find('.slider-num');
+
+                    $this.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide) {
+                        var i = (currentSlide ? currentSlide : 0) + 1;
+                        $status.html('<strong>' + (((i) < 10) ? "0" + (i) : i) + '</strong>' + '<small>/' + (((slick.slideCount) < 10) ? "0" + (slick.slideCount) : slick.slideCount) + '</<small>');
+                    });
+
+                    $this.slick({
+                        infinite:false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: false,
+                        autoplaySpeed: 3000,
+                        arrows: false,
+                        dots: false,
+                        pauseOnHover: false,
+                        focusOnSelect: true,
+                        
+                        responsive: [{
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 1,
+                            }
+                        }, {
+                            breakpoint: 520,
+                            settings: {
+                                slidesToShow: 1,
+                            }
+                        }]
+                    });
+
+                    $(".prev-btn").click(function () {
+                        $this.slick("slickPrev");
+                    });
+
+                    $(".next-btn").click(function () {
+                        $this.slick("slickNext");
+                    });
+
+                    $(".prev-btn").addClass("slick-disabled");
+                        $this.on("afterChange", function (event, slick, currentSlide) {
+                            if (currentSlide === 0) {
+                                $(".prev-btn").addClass("slick-disabled");
+                            } else {
+                                $(".prev-btn").removeClass("slick-disabled");
+                            }
+
+                            if ($(".slick-next").hasClass("slick-disabled")) {
+                                $(".next-btn").addClass("slick-disabled");
+                            } else {
+                                $(".next-btn").removeClass("slick-disabled");
+                            }
+                        });
+                });
+
+            })
+
+            
+
+    </script>
+</body>
+</html>
